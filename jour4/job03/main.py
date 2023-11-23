@@ -1,7 +1,7 @@
 def list_fruits():
     fruits=["pomme", "cerise","orange"]
     fruits.append("Melon")
-    return fruits
+    print(fruits)
 
 
-print(list_fruits())
+list_fruits()
