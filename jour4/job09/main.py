@@ -3,14 +3,11 @@ def x():
     min=L[0]
     max=L[0]
     for i in L:
-        if max < i:
-            max=i 
-    for i in L:
-        if min > i: 
-            min=i
-    print(f"La valeur min est :{min}")
-    print(f"La valeur max est :{max}")
-    
-x()
+        if min > i:
+            min= i
+        elif max < i:
+            max= i
+    print(f"la valeur min est {min}")
+    print(f"la valeur max est {max}")
 
-        
+x()
