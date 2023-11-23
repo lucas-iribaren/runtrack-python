@@ -1,6 +1,6 @@
 def list_fruits():
     fruits=["pomme", "cerise","orange"]
-    fruits.append("melon")
+    fruits.append("Melon")
     return fruits
 
 
